@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/backg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    width: 75px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    color: #fbfcfd;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.content{
+    color: aqua;
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+h1{
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+    color: rgb(19, 44, 28)
+    ;
+}
+.side-bar{
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#bbe7ec, #d0d2dd);
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.menu{
+    display: block;
+    width: 50px;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+.social-links img, .useful-links img{
+    width: 30px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.social-links{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.useful-links{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+}
+.one img:hover{
+    display: flex;  
+    transition: 0.8s ease-in-out;
+    transform: scale(1.15);
+    z-index: 2;
+}
